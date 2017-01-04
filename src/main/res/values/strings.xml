@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TripMemo</string>
+    <string name="ok">OK</string>
+    <string name="cancel">cancel</string>
+    <string-array name="countries_array">
+        <item>Paris</item>
+        <item>London</item>
+        <item>Brussels</item>
+        <item>Berlin</item>
+        <item>Rome</item>
+        <item>Madrid</item>
+        <item>Lisbonne</item>
+        <item>Edimbourg</item>
+    </string-array>
+
+</resources>
