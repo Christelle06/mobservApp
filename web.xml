@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>GAEProject</servlet-name>
+		<servlet-class>eurecom.fr.gaeproject.GAEProjectServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Admin</servlet-name>
+		<servlet-class>eurecom.fr.gaeproject.AdminServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>User</servlet-name>
+		<servlet-class>eurecom.fr.gaeproject.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>User</servlet-name>
+		<url-pattern>/user</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Travel</servlet-name>
+		<servlet-class>eurecom.fr.gaeproject.TravelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Travel</servlet-name>
+		<url-pattern>/travel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Admin</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GAEProject</servlet-name>
+		<url-pattern>/gaeproject</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

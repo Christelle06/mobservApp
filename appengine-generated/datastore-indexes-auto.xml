@@ -1,0 +1,11 @@
+<!-- Indices written at Wed, 25 Jan 2017 17:01:36 CET -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Travel" ancestor="false" source="auto">
+        <property name="user_id" direction="asc"/>
+        <property name="place" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
